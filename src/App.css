@@ -1,0 +1,309 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.header{
+  background-color: blue;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+.headerq:hover{
+  text-decoration: none;
+}
+.loginPage{
+  /* background-color: rgba(var(--b3f,250,250,250),1); */
+  background-color: #FAFAFA;
+  height: 528px;
+}
+.login{
+  border: 1px solid #e6e6e6;
+  height: 400px;
+  width: 400px;
+  margin-top: 65px;
+  /* margin-left: 180px; */
+  background-color: #fff;
+  float: left;
+  text-align: center;
+}
+.loginHeader{
+  font-size: 35px;
+  font-weight: 500;
+  /* margin-left: 150px; */
+  text-align: center;
+  margin-top: 20px;
+}
+.userName{
+ width: 250px;
+ padding-left: 20px;
+ padding: 5px 10px;
+ /* margin-left: 60px; */
+ background-color: #fafafa;
+ border: 1px solid #e6e6e6;
+}
+.password{
+ width: 250px;
+ padding: 5px 10px;
+ /* margin-left: 150px; */
+ background-color: #fafafa;
+ border: 1px solid #e6e6e6;
+}
+.loginBtn{
+  /* margin-left: 130px; */
+  border-radius: 5px;
+  padding: 5px 30px;
+  background-color: #00b140;
+  color: white;
+  font-weight: 500;
+  border: 1px solid #00b140;
+}
+.loginFooter{
+  font-weight: 100;
+  margin-top: 40px;
+  /* margin-left: 70px; */
+}
+.rgtArrow{
+  color: #00b140;
+  font-size: 55px;
+  /* margin-left: 150px; */
+}
+.signup{
+  /* padding-left: 780px; */
+  padding-top: 85px;
+}
+.signupHeader{
+  font-size: 35px;
+  font-weight: 500;
+}
+.name{
+  width: 250px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+}
+.signuserName{
+  width: 250px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+}
+.phnNum{
+  width: 250px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+}
+.signpassword{
+  width: 250px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+}
+.cfrmpassword{
+  width: 250px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+}
+.signupBtn{
+  border-radius: 5px;
+    padding: 5px 30px;
+  background-color: #00b140;
+  color: white;
+  border: 1px solid #00b140;
+}
+.contentHeader{
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.firstBtn{
+  border: 1px solid;
+  margin: 20px 120px;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  text-align: center;
+  padding: 50px;
+  font-weight: 500;
+  background-color: gainsboro;
+  color: white;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+.PreferencesActive {
+  background-color: rgb(85, 229, 238);
+}
+
+.endBtn{
+  border-radius: 5px;
+  padding: 5px 30px;
+  background-color: #00b140;
+  color: white;
+  border: 1px solid #00b140;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 17px;
+}
+.pageCnt{
+  overflow-y: scroll;
+  height: 528px;
+}
+.community{
+  border: 1px solid;
+  margin: 10px;
+  padding-left: 20px;
+  background-color: rgb(63, 63, 63);
+  color: #fff;
+}
+.mainHeading{
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  float: left;
+}
+.secondHeading{
+ 
+  font-size: 20px;
+  clear: left;
+  font-weight: 500;
+}
+.btn{
+  /* position: absolute;
+  top: 100px;
+  left: 20px; */
+  padding: 5px 30px;
+  font-weight: 500;
+}
+.clrBtn{
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: 20px; 
+  float: right;
+  background-color: #00b140;
+  color: white;
+  font-weight: 500;
+  border: 1px solid #00b140;
+}
+.btmCntnt{
+  clear: left;
+}
+.story{
+  padding-left: 20px;
+}
+.detailsCnt{
+  background-color: #E9EBEE;
+  padding-left: 30px;
+}
+.detailsHeader{
+  font-size: 25px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+.secondDetHead{
+  font-size: 20px;
+  font-weight: 500;
+}
+.clasas{
+  text-align: center;
+}
+.lwrCnt{
+  float: left;
+}
+.regBtn{
+  border-radius: 5px;
+  background-color: #00b140;
+  color: white;
+  font-weight: 500;
+  border: 1px solid #00b140;
+  text-align: center;
+}
+.popupMsg{
+  text-align: center;
+}
+.popupCnt{
+  height: 528px;
+  text-align: center;
+}
+/* .backCnt{
+  position: relative;
+} */
+.notification{
+  position: absolute;
+  top: 500px;
+  left: 1220px;
+  font-size: 45px;
+  color: #fd7e14;
+}
+.desBody{
+  font-size: 25px;
+  font-weight: 500;
+}
+.bookingCnt{
+  border: 1px solid;
+  text-align: center;
+  
+  /* margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px; */
+  margin: 113px 450px;
+  padding-top: 20px;
+}
+.sideHeading{
+  float: left;
+  margin-left: 00px;
+}
+.bookingHeadings{
+  font-size: 20px;
+  font-weight: 500;
+}
+.gap{
+  margin-bottom: 20px;
+}
+.footer{
+  background-color: blue;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 100px;
+  clear: left;
+  margin: 0;
+}
